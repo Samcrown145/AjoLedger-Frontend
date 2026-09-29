@@ -120,7 +120,7 @@ export default function Dashboard() {
       .finally(() => setLoading(false));
   }, []);
 
-  const firstName = user?.name?.split(' ')[0] ?? '';
+  const firstName = user?.name?.split(' ')[1] ?? '';
 
   return (
     <div className="page-container">
